@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="login_validate.js" defer></script>
+</head>
+<body>
+        <div id="main">
+
+     
+        <h1>Login</h1>  <br>
+        <form onsubmit="return validation()"  action="welcome.html">
+            <label>UserName</label>
+            <input type="text" id="username" name="Uname" placeholder="eg:zoro">
+            <br>
+            <label id="unamelbl" style="color:rgb(237, 88, 88);font-size:12px; visibility:hidden">UserName is required</label>
+            <br><br>
+            <label>PassWord</label>
+            <input type="password" id="password" name="pass" placeholder="eg:*******">
+             <br>
+             <label id="passlbl" style="color:rgb(237, 88, 88);font-size:12px ; visibility:hidden">Password is required</label>
+            <br><br><br>
+             <button id="button" type="submit">Submit</button>
+        </form>
+
+        </div>
+</body>
+</html>

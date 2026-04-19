@@ -2,10 +2,14 @@ document.getElementById("but_title").onclick = () =>{
      let title=document.getElementById("title");
 
     if( title.innerText=== "Hello World !!"){
-         title.innerText="Hello Bala !!";
+         var age=window.prompt("how old are you !") 
+        title.innerText="Hello Bala !!";
+        
     }
     else {
+    
         title.innerText="Hello World !!";
+        
     }
                         
 }
@@ -20,14 +24,17 @@ document.getElementById("change_text").onclick= ()=>{
     }
 
 }
-
 document.getElementById("hide_show").onclick =() =>{
     let para=document.getElementById("msg");
-    
+  
     if(para.style.display==="none"){
+   
         para.style.display =  "block";
+        
     }
     else {
+        
+      window.alert("the msg will be hidden");
         para.style.display = "none";
     }
 }
