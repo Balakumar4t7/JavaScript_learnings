@@ -34,3 +34,4 @@ console.log(validate(student)); // Displaying the result by calling the method
 let {name,age,city} = profile;  // this is Object Destructing (focused on storeing the object property values in a new variable)
 console.log(profile);
 console.log(name,age,city);
+
